@@ -15,7 +15,7 @@
     <div class="logo">
         <img src="../assets/logo.png" alt="Logo"> <!-- Add image -->
     </div>
-
+    <router-link></router-link>
     </div>
 </template>
 
