@@ -3,7 +3,8 @@
     <div><h1>Welcome to Zabri Bank</h1>
     
     <!-- Service Button -->
-    <div class="homepage">
+    <div class="homepage" style="background-image: url('../assets/backgroundimg.jpg');
+">
         <div class="services">
             <button class = "dropbtn">Services</button>
             <div class="dropdown-content">
@@ -59,9 +60,24 @@ export default{
     border: none; 
 }
 
+/* Dropdown Button Content */
+.dropbtncontent{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
 
-
-
+/* Home Page Image */
+.homepage{
+    background-image: url("../assets/backgroundimg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
 
 
 </style>
