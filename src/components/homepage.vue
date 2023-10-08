@@ -3,8 +3,7 @@
     <div><h1>Welcome to Zabri Bank</h1>
     
     <!-- Service Button -->
-    <div class="homepage" style="background-image: url('../assets/backgroundimg.jpg');
-">
+    <div class="homepage">
         <div class="services">
             <button class = "dropbtn">Services</button>
             <div class="dropdown-content">
@@ -71,7 +70,7 @@ export default{
 
 /* Home Page Image */
 .homepage{
-    background-image: url("../assets/backgroundimg.jpg");
+    background-image: url('assets/back.jpg');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
