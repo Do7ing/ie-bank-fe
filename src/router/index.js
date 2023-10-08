@@ -2,10 +2,20 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Skull from '../components/Skull.vue'
 import AppAccounts from '../components/AppAccounts.vue'
+import { hasOwnMetadata } from 'core-js/fn/reflect'
 
 Vue.use(VueRouter)
 
 const routes = [
+  {
+    path: '/',
+    redirect: '/homepage',
+  },
+  {
+    path:'/homepage',
+    name: 'homepage',
+    component: Home,
+  },
   {
     path: '/skull',
     name: 'Skull',
