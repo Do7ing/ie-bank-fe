@@ -11,7 +11,6 @@
             message
           }}</b-alert>
           <!-- b-alert v-if="error" variant="danger" show>{{ error }}</b-alert-->
-          
           <button
             type="button"
             class="btn btn-success btn-sm"
